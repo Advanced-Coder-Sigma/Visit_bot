@@ -28,7 +28,7 @@ async def visit(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if user_id not in USER_VISIT_COUNT:
             USER_VISIT_COUNT[user_id] = 0
         
-        if USER_VISIT_COUNT[user_id] >= 1000:
+        if USER_VISIT_COUNT[user_id] >= 100:
             await update.message.reply_text("🔥You have reached the limit of 200 visits per day🔥")
             return
 
