@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 import requests
 
 TOKEN = "7627406156:AAEnJDvSJrzNr9kY43sNzv6cYqoxMt9k-w0"
-ALLOWED_GROUP_ID = -1002392794494
+ALLOWED_GROUP_ID = -1002489902538
 USER_VISIT_COUNT = {}
 
 def add_visit(uid: int) -> str:
